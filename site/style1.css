@@ -8,11 +8,11 @@
 		color:orange;
 		font-size:300px;
 		margin-bottom:200px;
-		padding:0px;
+		padding:10px;
 		border: 0px
 
 	}
-	section h2 h3{
+	div section h2 h3{
 		margin-left:0px; 
 		padding:40px;
 		border: 40px;
@@ -21,6 +21,7 @@
 	section p{
 		font-size: 25px;
 		margin-left:60px;
+		text-align: justify;
 	}
     section ol{
     	font-size:40px;
@@ -30,6 +31,7 @@
     section ul{
     	font-size: 20px;
     	margin-left:60px;
+    	text-align: justify;
     }
    a{
    		text-decoration:none;
