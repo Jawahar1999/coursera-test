@@ -1,6 +1,7 @@
 <style>
 	* {
 		font-family:"Times New Roman", Times;
+
 	}
 	h1{
 		text-align:center; 
@@ -11,16 +12,24 @@
 		border: 0px
 
 	}
+	section h2 h3{
+		margin-left:0px; 
+		padding:40px;
+		border: 40px;
+		text-align:center;
+	}
 	section p{
 		font-size: 25px;
+		margin-left:60px;
 	}
     section ol{
     	font-size:40px;
     	color:black;
-    	margin-bottom:60px;
+    	margin-left:60px;
     }
     section ul{
     	font-size: 20px;
+    	margin-left:60px;
     }
    a{
    		text-decoration:none;
