@@ -1,37 +1,76 @@
 <style>
+
 	* {
 		font-family:"Times New Roman", Times;
-
+		box-sizing: border-box;
+	}
+	#bg{
+   	width:1500px;
+    height:500px;
+    background-image:url("https://images.pexels.com/photos/264537/pexels-photo-264537.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-repeat:repeat-x;
 	}
 	h1{
 		text-align:center; 
-		color:green;
+		color:white;
 		font-size:300px;
-		margin-bottom:200px;
-		padding:10px;
-		border: 0px
+		padding:0px;
+		margin-top:20px; 
+	}
+	div  {
+		margin-left:30px; 
+		margin-right: 20px;
+		padding:0px;
+		border:0px;
+	}
 
-	}
-	div section h2 h3{
-		margin-left:0px; 
-		padding:40px;
-		border: 40px;
-		text-align:center;
-	}
 	section p{
 		font-size: 25px;
 		margin-left:60px;
 		text-align: justify;
 	}
-    section ol{
+    section ol {
     	font-size:40px;
     	color:black;
     	margin-left:60px;
+    	text-align: justify;
     }
-    section ul{
-    	font-size: 20px;
+    section ul li {
+    	font-size: 25px;
     	margin-left:60px;
     	text-align: justify;
+    }
+    img{
+    	margin-left:30px;
+    	margin-right:1px;
+    }
+    @media(min-width:750px){
+    	section p{
+    		width: 100%;
+    	}
+    	section ol{
+    		width: 40%
+    	}
+    	section ul{
+    		width: 80%
+    	}
+    	img{
+    		width:29%
+    	}
+    }
+    @media(min-width:992px) and (max-width: 1199px){
+    	section p{
+    		width: 100%;
+    	}
+    	section ol{
+    		width: 50%
+    	}
+    	section ul{
+    		width: 80%
+    	}
+    	img{
+    		width:30%
+    	}
     }
    a{
    		text-decoration:none;
@@ -40,9 +79,11 @@
 		color:black;
 		background:white;
 	    text-decoration:blink;
-	    display: block;
 	}
    a:hover, a:active{
 		background:black;
 		color:white; 
+
+}
+
 </style>
