@@ -1,0 +1,335 @@
+body,html {
+  height: 90%;
+}
+.bg {
+  background-image: url("https://lh3.googleusercontent.com/e6hX16OFSqh-rB4D8loMe3maPZqvH1PhGeOFbOO9MkWKssDEV9TirkcNmrVPuUOQuQqZieCZhJxee7XFRUCtTzKbGiKcPqVsKVxMFIHzIyTN571iXM4y8h5FftUCLSoXUT_fZTvw82JmZoaKOxlx6Z6Ww3dTl6Ms0XquMXaA5HbgAP8PO-Q-ml5HdfZ5sOLcpr7EPEuY8ok14jWjRp-6RXt4GE9OfDIQNZ0SbsIw5Q8RDiio-shi_svyN9YOXGSOm-ItKEy3uYwLdNEqOsa_FAi8qMXlpioMPHhbK0LqpiqqQtG5aJ-DJLOd1tP3QDm1wW9zosygvIA6Cs5Q6xoHY8cw5NibONV_rWKXbqE_1FCGXTCoHzVmFsnHGnDkbFNQh4YPhLU5jQcOjWa3uWIh6p5_HUdXN969V9WOZMJyYRsElIp33T5mUMAzjxluFLPI0CNJ-xt5jzlWa3cFhoD2yVp7kpKGwD9c3XHToTZ9ncEDG41dzbjLKIpsRChK6BBgGptTu6GUHQONfoJLIJD-07bT8KkVb9tUHRYYDJaaJBJzS4oAc1eMjbbmvyRboSPJPJVyhyMQFN5uVc10ivUhj8aX29gNCrPa4AkrLYxlMvIp3vZ_TTn7f5eQsLubA-rZJhb3M0ZAxoLwvtIuLGktZfLhI6DZzlFt0I-ahwJ86wo16XhVGV129thBlzuYhbLfJnG3Rb1i8ZDZfy4rBh4Jy902=w1354-h903-no?authuser=0");
+  height:100%;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.bg {
+  opacity:1;
+}
+.btn{
+  background-color: darkorchid;
+}
+.btn2{
+  background-color: darkorchid;
+}
+
+ a { 
+  text-decoration: none;
+  color: black;
+}
+h2{
+  text-align: center;
+}
+.centered {
+  position:absolute;
+  top: 50%;
+  left: 5%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: padding 3s;
+  transition-timing-function:ease;
+}
+.centered:hover {
+  padding:0 200px 0 200px;
+}
+#a-tag{
+  background-color:whitesmoke;
+  padding:100px;
+  border-radius:10px ;
+  left: 25%;
+}
+#b-tag{
+  background-color:whitesmoke;
+  color:black;
+  text-align:center;
+}
+#b-tag {
+  overflow: hidden;
+  width:300px ;
+  height: 50px;
+  font-size:15px;
+  transition: width 1s, height 2s;
+  animation:myslide 4s, ease-in 2s ;
+}
+
+#b-tag:hover {
+  width: 1200px;
+  height: 200px;
+  transform: scale(1,1);
+}
+@keyframes myslide {
+  0% { opacity: 0; }
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% { opacity: 1; }
+
+  0%{ top:130% }
+  100%{top:120%}
+}
+#c-tag{
+  background-color:lightpink;
+  padding:100px;
+  border-radius:10px ;
+  left: 25%;
+
+
+}
+#d-tag{
+  position: relative;
+  background-color:lightpink;
+  color:black;
+  text-align: center;
+}
+#d-tag {
+  overflow: hidden;
+  align-content: center;
+  width:300px ;
+  height: 50px;
+  font-size:15px;
+  transition: width 1s, height 2s;
+  animation:Myslide 4s, ease-in 2s ;
+}
+
+#d-tag:hover {
+  width: 1200px;
+  height: 225px;
+  transform: scale(1,1);
+}
+@keyframes Myslide {
+  0% { opacity: 0; }
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% { opacity: 1; }
+
+  0%{ top:130% }
+  100%{top:120%}
+}
+#e-tag{
+  background-color:orchid;
+  padding:100px;
+  border-radius:10px ;
+  left: 25%;
+
+
+}
+#f-tag{
+  position: relative;
+  background-color:orchid;
+  color:black;
+  text-align: center;
+}
+#f-tag {
+  overflow: hidden;
+  align-content: center;
+  width:300px ;
+  height: 50px;
+  font-size:15px;
+  transition: width 1s, height 2s;
+  animation:Myslide 4s, ease-in 2s ;
+}
+
+#f-tag:hover {
+  width: 1200px;
+  height: 200px;
+  transform: scale(1,1);
+}
+@keyframes Myslide {
+  0% { opacity: 0; }
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% { opacity: 1; }
+
+  0%{ top:130% }
+  100%{top:120%}
+}
+#g-tag{
+  background-color:darkorchid;
+  padding:100px;
+  border-radius:10px ;
+  left: 25%;
+
+
+}
+#h-tag{
+  position: relative;
+  background-color:darkorchid;
+  color:black;
+  text-align: center;
+}
+#h-tag {
+  overflow: hidden;
+  align-content: center;
+  width:300px ;
+  height: 50px;
+  font-size:15px;
+  transition: width 1s, height 2s;
+  animation:MySlide 4s, ease-in 2s ;
+}
+
+#h-tag:hover {
+  width: 1200px;
+  height: 200px;
+  transform: scale(1,1);
+}
+@keyframes MySlide {
+  0% { opacity: 0; }
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% { opacity: 1; }
+
+  0%{ top:130% }
+  100%{top:120%}
+}
+#i-tag{
+  background-color:black;
+  padding:100px;
+  border-radius:10px ;
+  left: 25%;
+
+
+}
+#j-tag{
+  position: relative;
+  background-color:black;
+  color:whitesmoke;
+  text-align: center;
+}
+#j-tag {
+  overflow: hidden;
+  align-content: center;
+  width:300px ;
+  height: 50px;
+  font-size:15px;
+  transition: width 1s, height 2s;
+  animation:MysLide 4s, ease-in 2s ;
+}
+
+#j-tag:hover {
+  width: 1200px;
+  height: 80px;
+  transform: scale(1,1);
+}
+@keyframes MysLide {
+  0% { opacity: 0; }
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% { opacity: 1; }
+
+  0%{ top:130% }
+  100%{top:120%}
+}
+@media(min-width:992px) and (max-width:1295px) {
+#b-tag:hover {
+  width: 800px;
+  height: 250px;
+  transform: scale(1,1);
+  }
+#d-tag:hover {
+  width: 1000px;
+  height: 300px;
+  transform: scale(1,1);
+  }
+#f-tag:hover {
+  width: 800px;
+  height: 250px;
+  transform: scale(1,1);
+  }
+#h-tag:hover {
+  width: 800px;
+  height: 200px;
+  transform: scale(1,1);
+  }
+#j-tag:hover {
+  width: 800px;
+  height: 80px;
+  transform: scale(1,1);
+}
+}
+@media(min-width:765px) and (max-width: 990px) {
+.centered{
+  padding-left:0px;
+  padding-right:0px;
+  left:15px;
+  
+  transition: padding .1s;
+  }
+.centered:hover {
+  padding:0 25px 0 20px;
+  }
+#b-tag:hover {
+  width: 600px;
+  height:250px;
+  transform: scale(1,1);
+  }
+#d-tag:hover {
+  width: 600px;
+  height: 250px;
+  transform: scale(1,1);
+  }
+#f-tag:hover {
+  width: 600px;
+  height: 250px;
+  transform: scale(1,1);
+  }
+#h-tag:hover {
+  width: 600px;
+  height: 200px;
+  transform: scale(1,1);
+  }
+#j-tag:hover {
+  width: 600px;
+  height: 80px;
+  transform: scale(1,1);
+  }
+}
+@media(max-width:764px) {
+  .centered{
+  padding-left:0px;
+  padding-right:0px;
+  left:15px;
+  right:35px ;
+  transition: padding .1s;
+}
+.centered:hover {
+  padding:0 5px 0 0;
+  }
+#b-tag:hover {
+  width: 250px;
+  height: 400px;
+  transform: scale(1,1);
+  }
+#d-tag:hover {
+  width: 250px;
+  height: 225px;
+  transform: scale(1,1);
+  }
+
+#f-tag:hover {
+  width: 250px;
+  height: 250px;
+  transform: scale(1,1);
+  }
+#h-tag:hover {
+  width: 250px;
+  height: 200px;
+  transform: scale(1,1);
+  }
+#j-tag:hover {
+  width: 250px;
+  height: 80px;
+  transform: scale(1,1);
+  }
+}
