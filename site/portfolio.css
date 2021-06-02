@@ -306,6 +306,12 @@ h2{
 .centered:hover {
   padding:0 5px 0 0;
   }
+#g-tag, #h-tag {
+  background-color:lightsalmon;
+  }
+.btn,.btn2 {
+  background-color:lightpink;
+}
 #b-tag:hover {
   width: 250px;
   height: 400px;
