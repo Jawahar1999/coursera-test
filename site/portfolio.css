@@ -272,22 +272,22 @@ h2{
 #b-tag:hover {
   width: 600px;
   height:250px;
-  transform: scale(1,1);
+  transform: scale(1.25,1.25);
   }
 #d-tag:hover {
   width: 600px;
   height: 250px;
-  transform: scale(1,1);
+  transform: scale(1.25,1.25);
   }
 #f-tag:hover {
   width: 600px;
   height: 250px;
-  transform: scale(1,1);
+  transform: scale(1.25,1.25);
   }
 #h-tag:hover {
   width: 600px;
   height: 200px;
-  transform: scale(1,1);
+  transform: scale(1.25,1.25);
   }
 #j-tag:hover {
   width: 600px;
@@ -309,23 +309,23 @@ h2{
 #b-tag:hover {
   width: 250px;
   height: 400px;
-  transform: scale(1,1);
+  transform: scale(1.2,1.2);
   }
 #d-tag:hover {
   width: 250px;
   height: 225px;
-  transform: scale(1,1);
+  transform: scale(1.2,1.2);
   }
 
 #f-tag:hover {
   width: 250px;
   height: 250px;
-  transform: scale(1,1);
+  transform: scale(1.2,1.2);
   }
 #h-tag:hover {
   width: 250px;
   height: 200px;
-  transform: scale(1,1);
+  transform: scale(1.2,1.2);
   }
 #j-tag:hover {
   width: 250px;
